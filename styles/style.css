@@ -8,7 +8,8 @@
 
 
 body{
-    background-color: rgba(4, 33, 4, 0.867);
+    background: rgb(35,130,5);
+background: linear-gradient(90deg, rgba(35,130,5,1) 7%, rgba(9,121,9,1) 19%, rgba(0,255,33,1) 96%);
     color: white;
     font-family: Instrument Serif;
 }
@@ -97,7 +98,9 @@ h2{
 }
 
 #btn{
-    background-color: green;
+    
+    background: rgb(35,130,5);
+background: linear-gradient(90deg, rgba(35,130,5,1) 7%, rgba(9,121,9,1) 19%, rgba(0,255,33,1) 96%);
     width: 5rem;
     align-content: center;
     text-align: center;
