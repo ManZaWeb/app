@@ -1,3 +1,6 @@
+//Autor Mario Alfonso Nuñez
+//GitHub:
+
 const formulario = document.getElementById("formulario")
 const nombre = document.getElementById("nombre")
 const correo = document.getElementById("correo")
