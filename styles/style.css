@@ -11,6 +11,24 @@ body{
     color: white;
 }
 
+.hero-main-container{
+    background: url(/imgs/imagen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    position: relative;
+}
+
+
+.hero-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:black;
+    position: relative;
+}
+
 h1{
     text-align: center;
 }
@@ -19,7 +37,7 @@ h1{
     width: 30%;
     height: 70%;
     margin: 0 auto;
-    background-color: white;
+    background-color: black;
     color: white;
     border-radius: 5px;
 }
@@ -32,22 +50,33 @@ h1{
     flex-direction: column;
     padding: 15px;
     
+    
 }
 
 .form input{
    
-   
+    border: solid 1px white;
     background-color: grey;
     color: white;
     border-radius: 5px;
+    height: 5vh;
+    width: 40vh;
+    padding: 15px;
+    margin-bottom: 5px;
     
 }
 
+
+.form label{
+    text-align: center;
+}
+
 .form textarea{
-    
+    border: solid 1px white;
     background-color: grey;
     color: white;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 button{
