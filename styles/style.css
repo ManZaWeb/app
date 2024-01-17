@@ -18,18 +18,19 @@ body{
     background-size: cover;
     height: 25rem;
     position: relative;
-    clip-path: circle();
+    clip-path: ellipse(50% 50% at 50% 50%);
 }
 
 
-.hero-body{
+.hero-body {
+    position: relative;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    color:black;
-}
+    height: 100%;
+    color: black;
+  }
 
 h1{
     text-align: center;
