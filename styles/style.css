@@ -1,4 +1,4 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Salsa&display=swap');
 
 *{
     margin: 0;
@@ -6,9 +6,11 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color: rgba(4, 33, 4, 0.867);
     color: white;
+    font-family: Instrument Serif;
 }
 
 .hero-main-container{
@@ -34,7 +36,18 @@ body{
 
 h1{
     text-align: center;
+    font-size: 6.5rem;
 }
+
+span{
+    font-size: 2.5rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
 
 .form-container{
     width: 40%;
@@ -43,6 +56,7 @@ h1{
     background-color: black;
     color: white;
     border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
 }
 
 .form{

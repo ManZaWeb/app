@@ -18,7 +18,7 @@ const validar = (e) => {
     if(nombre.value.trim().length === 0){
         erroresArray.push("El nombre no puede estar vacio")
     }
-    if(!/^[a-zA-Z0-9]*$/.test(nombre.value.trim())){
+    if(!/^[A-Z][a-zA-Z0-9]+$/.test(nombre.value.trim())){
         erroresArray.push("El nombre debe empezar por mayuscula y no contener caracteres especiales")
     }
     if(correo.value.trim().length === 0){
