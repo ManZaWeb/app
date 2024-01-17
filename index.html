@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Examen Mario Alfonso Núñez</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <div class="form-container">
+        <form action="correcto.html" method="get" id="formulario" class="form">
+            <input type="text" name="nombre" id="nombre" class="nombre" placeholder="Nombre">
+            <input type="text" name="correo" id="correo" class="correo" placeholder="Correo electronico">
+
+            <label for="solicitud">Solicitud de información adicional</label>
+            <input type="radio" name="infoBtn" id="solicitud" class="solicitud">
+
+            <label for="ruta">Reserva de ruta</label>
+            <input type="radio" name="infoBtn" id="ruta" class="ruta">
+
+            <input type="submit" value="Info" class="btn" id="btn">
+
+            <textarea name="msg" id="msg" class="msg" cols="30" rows="10">Por favor, inserta un mensaje</textarea>
+            
+            <input type="submit" value="Enviar" class="btn" id="btn">
+        </form>
+    </div>
+<script src="js/index.js"></script>    
 </body>
 </html>
