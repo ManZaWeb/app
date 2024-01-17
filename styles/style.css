@@ -1,3 +1,5 @@
+@import url();
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: rgba(4, 33, 4, 0.867);
     color: white;
 }
 
@@ -17,7 +19,7 @@ h1{
     width: 30%;
     height: 70%;
     margin: 0 auto;
-    background-color: black;
+    background-color: white;
     color: white;
     border-radius: 5px;
 }
@@ -50,4 +52,8 @@ h1{
 
 button{
     background-color: green;
+}
+
+li{
+    color: red;
 }
