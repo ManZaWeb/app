@@ -83,7 +83,13 @@ h2{
     margin-bottom: 5px;
     
 }
+ input::placeholder{
+    color: white;
+ }
 
+ textarea::placeholder{
+    color: white;
+ }
 
 .form label{
     text-align: center;
